@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Demo Page</title>
+        <link href="Bootstrape/css/bootstrap.min.css" rel="stylesheet">
+        <script src="Bootstrape/js/jquery.min.js"></script>
+        <script src="Bootstrape/js/bootstrap.min.js"></script>
+        <script>
+            function data()
+            {
+                window.alert("Register Successfull");
+            }
+        </script>
+    </head>
+    <body>
+        <form method="POST">
+        <h1><marquee>Welcome To My Site</marquee></h1>
+        <font color="white" font-family="times new romen"><i><h1>Demo Static Website</h1></i></font>
+       <a href="#"> <span>Home</span></a>&nbsp;&nbsp;<a href="#"><span>About</span></a>&nbsp;&nbsp;<a href="#"><span>Gallry</span></a>&nbsp;&nbsp;<a href="#"><span>Setting</span> </a>&nbsp;&nbsp;<a href="#"><span>Contact</span></a>&nbsp;&nbsp;</br>
+        <div class="col-sm-6">
+            <label for="usr">Enter Name :</label>
+            <input type="text" name="txt" class="form-control" required/><br>
+            <label for="usr">Enter Surname :</label>
+            <input type="text" name="surnm" class="form-control" required><br>
+            <label for="usr">Select Course :</label>
+        <select name="sel" class="form-control" required>
+            <option>MCA</option>
+            <option>MBA</option>
+            <option>MAM</option>
+            <option>BBA</option>
+        </select><br>
+        <label for="usr">Village :</label>
+        <input type="text" name="vil" class="form-control" required><br>
+        <input type="submit" name="submit" value="Submit" class="btn btn-success" onclick="data()">
+    </div></br>
+        <!--<img src="E:\IMAGE FOLDER\Documentes\IMAGE.jpg">--></form>
+    </body>
+</html>
